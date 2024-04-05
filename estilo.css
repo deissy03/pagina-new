@@ -1,0 +1,45 @@
+.imagen-total{
+    width: 100%;
+    text-align: center;
+    height: 500px;
+    background:white ;
+    position: relative;
+ }
+ .imagen-total img{
+     width: 100%;
+     object-fit: cover;
+     height: 100%;
+    
+ }
+ .imagen-total div{
+     position: absolute;
+     top: 0;
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     background-color: rgba(0, 0, 0, 0.459);
+     height: 500px;
+     vertical-align: middle;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .footer {
+    background: #c79fab;
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;
+    color:beige; 
+    display:block;
+ 
+ }
+ .h-color{
+    color:rgb(18, 18, 18); 
+    font-family:  "Abril Fatface", serif;
+    font-weight: 400;
+    font-style: normal;
+ } 
+ .icono {
+    width: 40px;
+    height: 40px;
+ }
